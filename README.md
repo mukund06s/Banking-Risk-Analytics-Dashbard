@@ -1,7 +1,9 @@
 Banking Risk Analytics Dashboard
+
 This project focuses on analyzing banking data to understand and mitigate risk in lending using Power BI dashboards. It includes extensive data cleaning, transformation, and KPI development to assist banks in making data-driven decisions about client loans and deposits.
 
 Problem Statement
+
 Develop an analytical dashboard that helps banks minimize risk while lending by analyzing client profiles, deposit history, loan amounts, and engagement with banking services.
 
 Solution Overview
