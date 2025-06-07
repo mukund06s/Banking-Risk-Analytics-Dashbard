@@ -9,31 +9,49 @@ Develop an analytical dashboard that helps banks minimize risk while lending by 
 Solution Overview
 
 By using Power BI and custom data modeling techniques, we created an interactive banking dashboard that displays key performance indicators (KPIs) such as:
+
 •	Total Loan
+
 •	Total Clients
+
 •	Total Deposits
+
 •	Total Fees
+
 •	Loan Distribution by Income Band & Nationality
+
 •	Engagement Metrics
+
 The dashboard empowers decision-makers to visualize risk profiles and evaluate client eligibility for banking services, particularly loans.
 
 Dataset
 
 The dataset includes multiple interrelated tables such as:
+
 •	Banking Relationship
+
 •	Client-Banking
+
 •	Gender
+
 •	Investment Advisor
+
 •	Period
+
 Source
+
 Internal structured dataset (CSV/Excel format) reflecting client-banking relationships.
 
 Data Cleaning & Feature Engineering
 
 Several derived columns and transformations were applied:
+
 •	Engagement Timeframe: Duration of the client’s relationship with the bank.
+
 •	Engagement Days: Calculated using DATEDIFF to measure active banking period.
+
 •	Income Band: Bucketed estimated incomes into “Low”, “Mid”, etc.
+
 •	Processing Fees: Added as a function of fee structure (e.g., 5% if “High”).
 
 Key Metrics & DAX Functions
@@ -75,8 +93,11 @@ Requirements
 
 No Python packages are strictly required unless you're running BankEDA.ipynb for exploratory analysis. In that case:
 •	pandas
+
 •	matplotlib / seaborn
+
 •	jupyter
+
 Power BI Desktop (latest version) is required to view/edit .pbix dashboard.
 
 How to Use
@@ -90,7 +111,9 @@ git clone https://github.com/mukund06s
 Future Enhancements
 
 •	Integrate predictive models to forecast loan default risk.
+
 •	Add real-time database connectivity.
+
 •	Enable web embedding or export dashboards as web apps.
 
 Conclusion
